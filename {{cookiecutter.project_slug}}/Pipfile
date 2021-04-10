@@ -3,7 +3,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-[packages]
+[dev-packages]
 mypy = "*"
 mypy-extensions = "*"
 notebook = "*"
@@ -12,7 +12,8 @@ pytest-cov = "*"
 lxml = "*"
 pipenv-setup = "*"
 
-[dev-packages]
+[packages]
+click = "*"
 
 [requires]
 python_version = "3.7"
